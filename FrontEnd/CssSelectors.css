@@ -1,0 +1,37 @@
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer {
+    margin: 20px;
+}
+
+/* Selector Example 1 */
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Selector Example 2 */
+#customId {
+    text-decoration: underline;
+}
+
+/* Descendant Selector Example */
+#selectorExamples li {
+    list-style-type: square;
+}
+
+/* Child Selector Example */
+#selectorExamples > div {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Attribute Selector Example */
+[id="example1"] {
+    background-color: #f0f0f0;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+
+    <!-- Forms and Input Elements in HTML: -->
+
+    <!-- HTML forms are a fundamental part of web development.
+        They allow users to input data that can be submitted to a server for processing.
+        Forms are used for a wide range of purposes, from simple search boxes to complex
+        registration and login forms.
+
+Here are some essential HTML input elements used within forms: 
+
+1: Text Input (<input type="text">):
+
+        Used for single-line text input.
+        Commonly used for name, email, or username fields.
+    
+2: Password Input (<input type="password">):
+
+        Used for password input.
+        Characters are usually masked (e.g., asterisks) for security.
+    
+3: Radio Buttons (<input type="radio">):
+
+        Used when users must select one option from multiple choices.
+        Grouped by using the name attribute.
+
+4: Checkboxes (<input type="checkbox">):
+
+        Used when users can select multiple options.
+    
+5: Dropdown List (<select>):
+
+        Used for selecting options from a list.
+        Contains <option> elements for each choice.
+
+6: Text Area (<textarea>):
+
+        Used for multi-line text input, such as comments or messages.        -->
+
+        
+        <h1>Contuct Us</h1>
+
+        <form action="submit.php" method="post">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+            <input type="submit" value="Submit">
+
+
+        </form>
+    
+</body>
+</html>

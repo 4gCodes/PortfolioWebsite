@@ -1,0 +1,35 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: o;
+}
+
+/* Type/Element Selctor */
+p{
+    color: blue;
+}
+
+/* Class Selector */
+.highlight{
+    background-color: chocolate;
+}
+
+/* Id Selcetor */
+#myId{
+    font-size: xx-large;
+}
+
+/* attribute Selector */
+input[type="text"]{
+    border: 1px solid #ccc;
+}
+
+/* Descendant Selector */
+article p {
+    font-style: italic;
+  }
+  
+  /* Child Selector */
+  ul > li {
+    list-style-type: square;
+  }

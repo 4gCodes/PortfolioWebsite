@@ -1,0 +1,31 @@
+HTML5 Tags: (5Mrks)
+
+a. Design a navigation bar for a website using the <nav> tag. Include at least three navigation items.
+
+Headers: (5Mrks)
+a. Build a webpage with a structured header using <h1> to <h3> tags. Each header should represent a different section of the page.
+
+b. Implement a header using the <header> tag for a personal blog. Include relevant information such as the blog title and date.
+
+Paragraphs: (5Mrks)
+a. Develop a webpage that contains multiple paragraphs discussing a topic of your choice. Use the <p> tag to structure the content.
+
+b. Integrate a blockquote within a webpage, quoting a famous saying or text. Explain the context of the quote.
+
+Text Formatting (Bold, Italic, Underline): (5Mrks)
+a. Apply the <strong> and <em> tags to highlight important text within a paragraph.
+
+b. Design a webpage with a list of features, using the <u> tag to underline the key features.
+
+Section B: Combined Topics
+
+HTML5 Images and Links: (10 Mrks)
+a. Develop a gallery webpage with images (using <img> tags) and link each image to a different page. Ensure that the linked pages provide additional information about the image content.
+
+Attributes and Pages Navigation: (10 Mrks)
+a. Create a navigation menu with hyperlinks (<a> tags) that lead to different sections of a webpage. Use attributes like href to navigate within the same page.
+
+HTML5 Images and Lists (Ordered, Unordered): (10 Mrks)
+a. Create a webpage that combines an image gallery (using <figure> and <figcaption> tags) with an ordered list. Provide captions for each image using list items
+
+

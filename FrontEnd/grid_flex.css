@@ -1,0 +1,49 @@
+/* Reset some default styles and set box-sizing to border-box */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for header, main, and footer sections */
+  header, main, footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Styling for the main content area, using Flexbox */
+  main {
+    display: flex;
+    justify-content: space-around; /* Flexbox: horizontal alignment of items */
+  }
+  
+  /* Styling for the grid container, using CSS Grid */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* CSS Grid: 2 columns with equal width */
+    grid-gap: 20px; /* CSS Grid: gap between grid items */
+  }
+  
+  /* Styling for grid items and flex items */
+  .grid-item, .flex-item {
+    padding: 20px;
+    border: 1px solid #3498db;
+    text-align: center;
+  }
+  
+  /* Styling for the flex container, using Flexbox */
+  .flex-container {
+    display: flex;
+    flex-direction: column; /* Flexbox: vertical alignment of items */
+  }
+  
+  /* Media Query for Responsive Layout */
+  @media (max-width: 600px) {
+    /* Adjust the layout for smaller screens */
+    main {
+      flex-direction: column; /* Flexbox: stack items vertically on small screens */
+    }
+  }

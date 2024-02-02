@@ -1,0 +1,54 @@
+CSS Grid:
+***********1. Container and Items:***********
+To use CSS Grid, you need to define a container as a grid container using display: grid;.
+Grid items are the elements inside the grid container.
+
+
+***********2. Grid Template:***********
+Define the structure of the grid using grid-template-rows and grid-template-columns.
+You can also use grid-template-areas for a more visual approach.
+
+
+***********3. Grid Gap:***********
+Add gaps between rows and columns with grid-row-gap and grid-column-gap, or grid-gap for both.
+
+
+***********4. Placing Items:***********
+Place items in specific grid lines or areas using grid-row and grid-column.
+
+
+***********5. Grid Auto Flow:***********
+Control how the items are placed in the grid using grid-auto-flow.
+
+
+***********6. Responsive Grids:***********
+Use media queries to create responsive grids.
+
+
+Flexbox:
+1. Container and Items:
+To use Flexbox, you need to define a container as a flex container using display: flex;.
+Flex items are the elements inside the flex container.
+
+2. Flex Direction:
+Define the main axis with flex-direction.
+
+
+3. Justify Content:
+Align items along the main axis using justify-content.
+
+
+4. Align Items:
+Align items along the cross axis using align-items.
+
+
+5. Flex Wrap:
+Control whether the flex container is a single-line or multi-line with flex-wrap.
+
+
+6. Flex Grow, Shrink, and Basis:
+Control the flexibility of flex items using flex-grow, flex-shrink, and flex-basis.
+
+
+7. Align Self:
+Override alignment for individual flex items using align-self.

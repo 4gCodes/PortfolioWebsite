@@ -1,0 +1,161 @@
+/* What is CSS 
+-> CSS stands for Cascading Style Sheets. 
+-> It's a style sheet language used for describing the look and formatting of a document written in HTML. 
+-> CSS describes how elements should be rendered on screen, on paper, in speech, or on other media. 
+
+CSS Syntax is as below;
+
+        Selector
+        {
+            Property: Value;
+        }
+        
+        Explanation;
+        Selector - Elements to which styles are applied.
+        Property - Specific style features (e.g., color, font-size).
+        Value - Specific settings for properties.
+
+How to impliment CSS in HTML
+There are three ways to implement css in HTML, These are
+        1: Inline CSS 
+        2: Internal CSS
+        3: External CSS
+
+
+***************************1: Inline***************************
+Description: Inline CSS is applied directly to a single HTML element using the style attribute.
+Example:
+<p style="color: blue; font-size: 16px;">This is a paragraph with inline CSS.</p>
+
+-> Pros: Quick and easy for small styles.
+-> Cons: Mixing styles with HTML can reduce maintainability.
+
+
+***************************2: Internal CSS***************************
+Description: Internal CSS is defined within the HTML document, typically in the <head> section, using the <style> tag.
+Example:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    p {
+      color: green;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <p>This is a paragraph with internal CSS.</p>
+</body>
+</html>
+
+
+Pros: Separates HTML and CSS to some extent.
+Cons: Styles are still part of the HTML file.
+
+***************************3: External CSS***************************
+Description: External CSS is stored in a separate CSS file and linked to the HTML document using the <link> tag.
+Example:
+
+HTML FILE
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <p>This is a paragraph with external CSS.</p>
+</body>
+</html>
+
+
+CSS FILE
+p {
+    color: red;
+    font-size: 20px;
+  }
+
+
+Pros: Provides the cleanest separation between HTML and CSS. Better for larger projects.
+Cons: Requires an additional file.
+
+
+Note: It's common to use a combination of these methods in a web project, depending on the
+scope and requirements. External CSS is often preferred for larger projects as it promotes 
+better organization and reusability.
+
+TYPES OF SELECTORS IN CSS
+CSS provides various selectors to target and style HTML elements. Let's explore some major selectors 
+
+1: Element Selector:
+Selects HTML elements by their tag name.
+    p{
+      color:red
+    }
+
+2: ID Selector:
+Selects a specific element by its unique ID.
+      //Selects the element with ID 'header' and sets background color to blue 
+    #header {
+      background-color: blue;
+    }
+
+3: Class Selector:
+Selects elements with a specific class.
+    //Selects all elements with class 'highlight' and sets font-weight to bold 
+    .highlight {
+      font-weight: bold;
+    }
+
+4:  Attribute Selector:
+Selects elements based on the presence or value of their attributes.
+    //Selects all links with 'target' attribute set to '_blank' 
+    a[target="_blank"] {
+      color: orange;
+    }
+
+5: Descendant Selector:
+Selects all elements that are descendants of a specified element.
+    // Selects all list items inside an unordered list 
+    ul li {
+      list-style-type: square;
+    }
+
+6: Child Selector:
+Selects all direct children of a specified element.
+    //Selects all direct children paragraphs of a div 
+    div > p {
+      font-style: italic;
+    }
+
+7: Adjacent Sibling Selector:
+Selects an element that is directly preceded by a specified element.
+    // Selects any paragraph that directly follows a heading 
+    h2 + p {
+      color: green;
+    }
+
+8: Pseudo-Classes:
+Selects elements based on their state or position.
+      //Selects the first paragraph within a div 
+      div p:first-child {
+        font-weight: 700;
+      }
+
+9: Pseudo-Elements:
+Selects parts of an element.
+        //Selects the first line of a paragraph 
+    p::first-line {
+      font-style: italic;
+    }
+
+10:  Combination of Selectors:
+You can combine selectors for more specific targeting.
+      //Selects all paragraphs inside a div with class 'container' 
+.container p {
+  background-color: #f0f0f0;
+}
+
+*/
